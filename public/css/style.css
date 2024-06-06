@@ -31,6 +31,7 @@ nav{
     height: 70px;
     background-color: blue;
 }
+
 .navitem{
     text-decoration: none;
     color: black;
@@ -46,5 +47,5 @@ nav{
     justify-content: space-between;
 }
 #heroimage{
-    height: 60vh;b
+    height: 60vh;
 }
