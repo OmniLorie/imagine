@@ -55,3 +55,35 @@ const bottle1 = {
   for (let i = 0; i <= 5; i++) {
     console.log('We did it!', )
   }
+
+
+  //functions
+//Defining a function
+function login(username, password) {
+  //validate  username and password
+if(!username || !password) {
+  return 'username or password not provided';
+}
+  //verify username and password
+ if (username == 'mickeymond' && password =='1234'){
+   return 'user is logged in';
+ } else {
+   return 'Invalid username or password';
+ }
+}
+// invoking a function
+login('mickeymond', '1234');
+
+
+
+
+
+
+
+//Basic Arithmetic Operations
+11 + 12;
+1 + 0.5;
+45 / 5;
+20 - 2;
+5 * 5;
+14 % 3;
