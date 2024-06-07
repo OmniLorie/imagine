@@ -87,3 +87,30 @@ login('mickeymond', '1234');
 20 - 2;
 5 * 5;
 14 % 3;
+
+
+//Strings in Javascript
+//Concactenation
+const firstname = 'Lorie';
+const lastname = 'Osibe';
+const middlename = '';
+firstname + ' ' + lastname;
+// Template literal
+`${firstname} ${middlename} ${lastname}`;
+
+let fullname = "Lorie Osibe"
+fullname.length
+fullname.toUpperCase()
+fullname.charAt(2)
+fullname.slice(7,16)
+fullname.split("")
+fullname.replace("lillian", "Bernice")
+fullname.indexOf("ie")
+
+//string conversion
+Number("3.243")
+parseInt("3.243")
+parseFloat("3.243")
+let amount = 100000
+console.log(`GHS$(amount)` )
+amount.toString()
