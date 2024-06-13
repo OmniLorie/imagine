@@ -155,3 +155,17 @@ function fullName(user) {
   }
   isEven(6);
   numbers.filter(isEven);
+
+
+
+  //Classes in Javascript
+class Laptop {
+  constructor(brand, color){
+    this.brand = brand;
+    this.color = color;
+  }
+}
+const laptop1 = newnlaptop('Dell','black');
+const laptop2 = new Laptop('Hp' 'silver');
+laptop1.brand;
+laptop2.brand;
